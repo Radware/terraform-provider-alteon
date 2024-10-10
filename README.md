@@ -1,20 +1,20 @@
 <img src="https://www.radware.com/RadwareSite/MediaLibraries/Images/logo.svg" width="300px">
 
-# Terraform Provider for Cyber Controller
-The Terraform Provider for Cyber Controller helps automate provisioning and updating applications on Alteon clusters managed by Cyber Controller Alteon Cluster Manager module. 
+# Terraform Provider for Alteon
+The Terraform Provider for Alteon helps automate provisioning and updating applications on Alteon. 
 
 ## Requirements
 
 - Terraform > 1.7.x
 - Go v1.22.0 (To build the provider)
-- CyberController >= 10.6.0.
+- Alteon >= 34.0.3.0
 
 
 # Building the Provider
 
 Create a directory to clone the provider repository .
 
-Link to clone the repository :git clone https://github.com/Radware/terraform-provider-cybercontroller.git
+Link to clone the repository :git clone https://github.com/Radware/terraform-provider-alteon.git
 
 In command Prompt navigate to the cloned directory and use below command to build exe
 		go build .
