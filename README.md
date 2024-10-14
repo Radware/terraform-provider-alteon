@@ -1,13 +1,13 @@
 <img src="https://www.radware.com/RadwareSite/MediaLibraries/Images/logo.svg" width="300px">
 
 # Terraform Provider for Alteon
-The Terraform Provider for Alteon helps automate provisioning and updating applications on Alteon. 
+The Terraform provider for [Alteon](https://www.radware.com/products/alteon/) enables to automate the provisioning and management of application services on Alteon. 
 
 ## Requirements
 
 - Terraform > 1.7.x
 - Go v1.22.0 (To build the provider)
-- Alteon >= 34.0.3.0
+- Alteon >= 33.x
 
 
 # Building the Provider
