@@ -10,14 +10,24 @@ The Terraform provider for [Alteon](https://www.radware.com/products/alteon/) en
 - Alteon >= 33.x
 
 
-# Building the Provider
+# Building the  Provider
 
-Create a directory to clone the provider repository .
+Clone repository to: $GOPATH/src/github.com/Radware/terraform-provider-alteon
 
-Link to clone the repository :git clone https://github.com/Radware/terraform-provider-alteon.git
+```
+$ mkdir -p $GOPATH/src/github.com/Radware; cd $GOPATH/src/github.com/Radware
 
-In command Prompt navigate to the cloned directory and use below command to build exe
-		go build .
+$ git clone https://github.com/Radware/terraform-provider-alteon.git
+
+```
+Enter the provider directory and build the provider
+
+```
+$ cd $GOPATH/src/github.com/Radware/terraform-provider-alteon
+
+$ make build
+
+```
 
 # Using the Provider
 
